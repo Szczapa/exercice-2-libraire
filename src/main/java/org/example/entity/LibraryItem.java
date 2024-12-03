@@ -1,6 +1,6 @@
 package org.example.entity;
 
-public class LibraryItem {
+public abstract class LibraryItem {
     private int id;
     private String title;
     private int publicationYear;
