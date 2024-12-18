@@ -1,6 +1,6 @@
 package org.example.entity;
 
-public class Magazine extends LibraryItem{
+public final class Magazine extends LibraryItem{
 
     public int getIssueNumber() {
         return issueNumber;

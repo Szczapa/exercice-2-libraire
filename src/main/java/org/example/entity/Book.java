@@ -1,6 +1,6 @@
 package org.example.entity;
 
-public class Book extends LibraryItem{
+public final class Book extends LibraryItem{
     public String getAuthor() {
         return author;
     }

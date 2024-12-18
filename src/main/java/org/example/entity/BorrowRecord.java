@@ -3,6 +3,11 @@ package org.example.entity;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+    public record BorrowRecord(int itemId, String borrowerName, String borrowDate){}
+ */
+
+
 public class BorrowRecord {
     List<LibraryItem> borrowedItems;
 

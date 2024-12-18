@@ -28,7 +28,7 @@ public class Main {
                     library.displayAllItems();
                     break;
                 case 2:
-                    borrowProduct(borrowRecord,library);
+                    borrowProduct(borrowRecord, library);
                     break;
                 case 3:
                     addBook(library);
@@ -36,9 +36,9 @@ public class Main {
                 case 4:
                     addMagazine(library);
                     break;
-                    case 5:
-                        borrowedProduct(borrowRecord,library);
-                        break;
+                case 5:
+                    borrowedProduct(borrowRecord, library);
+                    break;
                 case 6:
                     running = false;
                     break;
@@ -50,14 +50,14 @@ public class Main {
     }
 
     public static void initSystem(Library library, BorrowRecord borrowRecord) {
-        Book book = new Book(setId(library),"toto",1994,"robert");
+        Book book = new Book(setId(library), "toto", 1994, "robert");
         library.addItem(book);
 
-        Book book1 = new Book(setId(library),"tata",1995,"robert");
+        Book book1 = new Book(setId(library), "tata", 1995, "robert");
         library.addItem(book1);
         borrowRecord.addItem(book1);
 
-        Magazine magazine = new Magazine(setId(library),"le super magazine", 2024, 12);
+        Magazine magazine = new Magazine(setId(library), "le super magazine", 2024, 12);
         library.addItem(magazine);
     }
 
